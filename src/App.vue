@@ -1,7 +1,14 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/scroll">Smooth Scroll</router-link> |
+    <router-link to="/dropdown">Dropdown</router-link> |
+    <router-link to="/rendering">Conditional Rendering</router-link> |
+    <router-link to="/modals">Modals</router-link> |
+    <router-link to="/plugins">Plugins</router-link> |
+    <router-link to="/dialogs">Confirmation Dialogs</router-link> |
+    <router-link to="/svgs">Inline SVGs</router-link> |
+    <router-link to="/tabs">Tabs</router-link>
   </nav>
   <router-view />
 </template>
@@ -25,6 +32,6 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #38bdf8;
 }
 </style>
